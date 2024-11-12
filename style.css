@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#dataForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid peru;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: peru;
+}

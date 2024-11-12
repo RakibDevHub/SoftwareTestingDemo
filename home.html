@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Form</title>
+  </head>
+  <body>
+    <form id="dataForm" method="POST" action="process.php">
+      <label for="inputText">Enter ID:</label>
+      <input type="text" id="inputText" name="inputID" /><br />
+      <label for="inputText">Enter Name:</label>
+      <input type="text" id="inputText" name="inputName" /><br />
+      <label for="inputText">Enter Department:</label>
+      <input type="text" id="inputText" name="inputDepartment" /><br />
+      <label for="inputText">Enter Contact:</label>
+      <input type="text" id="inputText" name="inputContact" /><br />
+      <button type="submit">Submit</button>
+      <button type="button" onclick="showData()">Show Data</button>
+    </form>
+    <script>
+      function showData() {
+        window.location.href = "showData.php";
+      }
+    </script>
+  </body>
+</html>
